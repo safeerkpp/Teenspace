@@ -54,7 +54,7 @@ https://www.tooplate.com/view/2125-artxibition
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a style="color:#ed176a" href="index.html" class="logo">Teen<em style="color:#28b6ea">space</em></a>
+                        <a style="color:#ed176a" href="index.html" class="logo">teen<em style="color:#28b6ea">space</em></a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
@@ -103,13 +103,19 @@ https://www.tooplate.com/view/2125-artxibition
         </div>
     </div>
     <!-- ***** Main Banner Area End ***** -->
- 
+<div class="map-image">
+      <img src="assets\images\Teenspace Text.jpg" alt="Maps of 3 Venues">
+  </div>**
+
 
     <!-- *** Owl Carousel Items ***-->
     <div class="show-events-carousel">
+       
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
+                  <div class="pb-4"></div>
+
                     <div class="owl-show-events owl-carousel">
                         <div class="item">
                             <a href=""><img src="assets/images/1.jpg" alt=""></a>
@@ -140,9 +146,6 @@ https://www.tooplate.com/view/2125-artxibition
             </div>
         </div>
     </div>
-    <div class="map-image">
-      <img src="assets\images\Teenspace Text.jpg" alt="Maps of 3 Venues">
-  </div>
 
 
     
@@ -168,7 +171,7 @@ https://www.tooplate.com/view/2125-artxibition
 
     <!-- *** Map ***-->
     <div class="map-image">
-        <img src="assets/images/map-image.jpg" alt="Maps of 3 Venues">
+        <img src="assets/images/map-image.jpg" alt="">
     </div>
 
 
@@ -230,7 +233,7 @@ https://www.tooplate.com/view/2125-artxibition
                             <div class="col-md-6 col-sm-12">
                               <fieldset>
                                 <select id="class" class="form-control" name="Gender" required="">
-                                    <option selected="" disabled="">Male/Femal</option>
+                                    <option selected="" disabled="">Male/Female</option>
                                     <option>Male</option>
                                     <option>Female</option>
                                </select>
@@ -239,7 +242,7 @@ https://www.tooplate.com/view/2125-artxibition
                             </div>
                             <div class="col-md-6 col-sm-12">
                               <fieldset>
-                                <input name="Phone Number" type="text" id="phone-number" placeholder="Phone Number*" required="">
+                                <input name="Phone Number" type="tel" id="phone-number" placeholder="Phone Number*" required="">
                               </fieldset>
                             </div>
                             <div class="col-md-6 col-sm-12">
@@ -344,7 +347,7 @@ https://www.tooplate.com/view/2125-artxibition
                 data:$("#submit-form").serialize(),
                 method:"post",
                 success:function (response){
-                    alert("You are Regitered for Teenspace")
+                    alert("You are Registered for Teenspace")
                     window.location.reload()
                     //window.location.href="https://google.com"
                 },
